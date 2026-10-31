@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>AB Recovery - Stolen Vehicle Recovery & Lender Repossession | Anaheim, CA</title>
 <meta name="description" content="AB Recovery - We recover stolen vehicles for ordinary owners + repossession for banks. Based at 174 W Lincoln Ave, Anaheim, CA serving Los Angeles, Long Beach, Anaheim.">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚗</text></svg>">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%2300e0ff%22/><text x=%2250%22 y=%2258%22 font-size=%2250%22 text-anchor=%22middle%22 fill=%22black%22 font-weight=%22900%22>AB</text></svg>">
 <style>
 :root{--bg:#0b1020;--panel:#111a33;--line:#1e2a4a;--text:#d9deea;--muted:#8a90a8;--cyan:#00e0ff;--amber:#ffb03a;--emerald:#22e39a;--red:#ff2d55}
 *{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}body{background:var(--bg);color:var(--text);font-family:Inter,system-ui,sans-serif;overflow-x:hidden;padding-bottom:140px;padding-bottom:calc(140px + env(safe-area-inset-bottom));overflow-wrap:break-word}
@@ -15,7 +15,6 @@
 .toggle{display:flex;gap:8px;margin-top:16px;background:var(--panel);border:1px solid var(--line);padding:6px;border-radius:12px;width:fit-content;flex-wrap:wrap}.toggle button{padding:8px 14px;border-radius:8px;border:1px solid transparent;background:transparent;color:var(--muted);font-weight:800;font-size:11px;cursor:pointer}.toggle button.active{background:var(--cyan);color:#000}
 .hud{position:fixed;top:60px;z-index:90;font:10px ui-monospace;color:var(--muted);letter-spacing:.5px}.hud.tl{left:12px}.hud.tr{right:12px;text-align:right}.hud .rec{display:inline-block;width:8px;height:8px;background:var(--red);border-radius:50%;box-shadow:0 0 8px var(--red);margin-right:6px}.ruler{position:fixed;top:58px;left:0;right:0;height:2px;background:#ffffff10;z-index:91}.ruler i{position:absolute;top:0;bottom:0;width:2px;background:var(--cyan);box-shadow:0 0 10px var(--cyan);transition:left .1s linear}
 #story{max-width:1300px;margin:0 auto;padding:0 18px}
-/* FIXED: NO MORE 90vh GAP ON DESKTOP OR MOBILE */
 .chap{min-height:auto;padding:50px 0;display:grid;grid-template-columns:1.1fr .9fr;gap:30px;align-items:start;border-bottom:1px dashed #ffffff10;opacity:1;transform:none;transition:.6s}
 .chap:first-child{padding-top:25px}
 .eyebrow{font-size:11px;letter-spacing:1px;color:var(--cyan);font-weight:800;display:flex;gap:8px;align-items:center}.eyebrow .n{background:var(--cyan);color:#000;padding:2px 6px;border-radius:4px}h1,h2{font-size:40px;line-height:.95;letter-spacing:-1px}.lede{color:var(--muted);margin-top:12px;line-height:1.6;font-size:14px}.stat{margin:12px 0;font-size:12px;color:var(--amber)}.stat b{font-size:28px;color:#fff}
@@ -27,8 +26,7 @@ footer{padding:40px 18px;color:var(--muted);font-size:11px;border-top:1px solid 
   h1,h2{font-size:26px !important;line-height:1.1}
   .srow{grid-template-columns:1fr}
   .audit thead{display:none}.audit, .audit tbody, .audit tr{display:block;width:100%}.audit tr{background:#162144;border:1px solid #1e2a4a;border-radius:12px;margin-bottom:10px;padding:8px}.audit td{display:flex;justify-content:space-between;border:0}.audit td:before{content:attr(data-label);color:var(--muted)}
- } 
-}                                                                                                                                                                                                                                                                                                                                                                                                     
+ }
 </style>
 </head>
 <body>
@@ -67,7 +65,7 @@ footer{padding:40px 18px;color:var(--muted);font-size:11px;border-top:1px solid 
 <div class="h-sep"></div>
 <section class="chap" data-name="Live map" data-clock="T+2D 14:20">
 <div><div class="eyebrow"><span class="n">02</span> Locate and recover - LA / Long Beach / Anaheim</div><div class="stat"><b>3</b> days to recovered</div><h2>Watch the field move in real time.</h2><p class="lede">Licensed agents and drivers across Los Angeles, Long Beach and Anaheim on one live map. Photos and GPS logged on scene from Anaheim HQ.</p></div>
-<div class="win"><div class="tb"><span class="app">ABR SYSTEM</span> Drivers - Southern California <span class="chip c" style="margin-left:auto">● Live</span></div><div class="pad"><canvas id="isomap"></canvas><div style="margin-top:10px"><div class="row2"><span>Theo M. - Anaheim - ABR-48213</span><span>7 min</span></div><div class="row2"><span>Dana W. - Long Beach</span><span>18 min</span></div><div class="row2"><span>Luis A. - Los Angeles</span><span>11 min</span></div></div></div></div>
+<div class="win"><div class="tb"><span class="app">ABR SYSTEM</span> Drivers - Southern California <span class="chip c" style="margin-left:auto">● Live</span></div><div class="pad"><canvas id="isomap"></canvas><div style="margin-top:10px"><div class="row2"><span>Theo M. - Anaheim - ABR-48213</span><span>7 min</span></div><div class="row2"><span>Dana W. - Long Beach</span><span>18 min</span></div><div class="row2"><span>Luis A. - Los Angeles</span><span>11 min</span></div><div class="row2"><span>Marco R. - Anaheim</span><span>4 min</span></div><div class="row2"><span>Jen K. - Los Angeles</span><span>9 min</span></div><div class="row2"><span>Sam T. - Long Beach</span><span>12 min</span></div></div></div></div>
 </section>
 <div class="h-sep"></div>
 <section class="chap" data-name="Police" data-clock="T+2D 14:41">
@@ -119,7 +117,45 @@ const chaps=[...document.querySelectorAll('.chap')];
 const hudCh=document.getElementById('hudCh');const hudName=document.getElementById('hudName');const hudClock=document.getElementById('hudClock');const rulerHead=document.getElementById('rulerHead');const floor=document.getElementById('floor');
 function onScroll(){const h=window.innerHeight;let active=chaps[0];let progress=0;chaps.forEach((c,i)=>{const r=c.getBoundingClientRect();if(r.top < h*0.6){active=c;progress=(i+1)/chaps.length}if(r.top < h*0.7 && r.bottom > h*0.3){c.classList.add('play')}});hudCh.textContent=`CH 0${chaps.indexOf(active)+1} / 0${chaps.length}`;hudName.textContent=active.dataset.name||'';hudClock.textContent=active.dataset.clock||'';rulerHead.style.left=(progress*100)+'%';floor.style.setProperty('--gy',(window.scrollY*0.2)+'px');}
 window.addEventListener('scroll',onScroll,{passive:true});onScroll();
-const canvas=document.getElementById('isomap');if(canvas){const ctx=canvas.getContext('2d');canvas.width=800;canvas.height=400;let t=0;function draw(){ctx.clearRect(0,0,800,400);ctx.strokeStyle='#1e2a4a';for(let i=0;i<20;i++){ctx.beginPath();ctx.moveTo(0,i*20);ctx.lineTo(800,i*20);ctx.stroke()}ctx.fillStyle='#00e0ff';const x=200+Math.sin(t*0.01)*80,y=150+Math.cos(t*0.008)*40;ctx.beginPath();ctx.arc(x,y,6,0,Math.PI*2);ctx.fill();ctx.fillStyle='#ffb03a';ctx.beginPath();ctx.arc(400,200,6,0,Math.PI*2);ctx.fill();t++;requestAnimationFrame(draw);}draw();}
+const canvas=document.getElementById('isomap');
+if(canvas){
+  const ctx=canvas.getContext('2d');
+  canvas.width=800; canvas.height=450;
+  const vRoads=[60,140,230,320,410,500,590,680,750];
+  const hRoads=[50,110,170,220,280,340,390];
+  const agents=[
+    {x:60,y:50,dx:1,dy:0,c:'#00e0ff',road:'h'},
+    {x:230,y:390,dx:-1,dy:0,c:'#ffb03a',road:'h'},
+    {x:590,y:110,dx:0,dy:1,c:'#22e39a',road:'v'},
+    {x:410,y:50,dx:0,dy:1,c:'#ff2d55',road:'v'},
+    {x:750,y:280,dx:-1,dy:0,c:'#a78bfa',road:'h'},
+    {x:140,y:340,dx:1,dy:0,c:'#00e0ff',road:'h'}
+  ];
+  function draw(){
+    ctx.fillStyle='#080e22'; ctx.fillRect(0,0,800,450);
+    ctx.strokeStyle='#1e2a4a'; ctx.lineWidth=1;
+    hRoads.forEach(y=>{ctx.beginPath();ctx.moveTo(0,y);ctx.lineTo(800,y);ctx.stroke();});
+    vRoads.forEach(x=>{ctx.beginPath();ctx.moveTo(x,0);ctx.lineTo(x,450);ctx.stroke();});
+    ctx.lineWidth=2; ctx.setLineDash([8,8]);
+    [230,500].forEach(x=>{ctx.beginPath();ctx.moveTo(x,0);ctx.lineTo(x,450);ctx.stroke();});
+    ctx.setLineDash([]);
+    ctx.fillStyle='#ffffff08';
+    vRoads.forEach(x=>{hRoads.forEach(y=>{ctx.beginPath();ctx.arc(x,y,2,0,Math.PI*2);ctx.fill();})});
+    agents.forEach(a=>{
+      ctx.shadowColor=a.c; ctx.shadowBlur=12;
+      ctx.fillStyle=a.c; ctx.beginPath(); ctx.arc(a.x,a.y,5,0,Math.PI*2); ctx.fill();
+      ctx.shadowBlur=0;
+      if(a.road==='h'){a.x+=a.dx*1.2; if(a.x>790||a.x<10){a.dx*=-1; a.y=hRoads[Math.floor(Math.random()*hRoads.length)];}}
+      else{a.y+=a.dy*1.2; if(a.y>440||a.y<10){a.dy*=-1; a.x=vRoads[Math.floor(Math.random()*vRoads.length)];}}
+      if(Math.random()<0.015){
+        if(a.road==='h'){a.road='v'; a.x=vRoads[Math.floor(Math.random()*vRoads.length)]; a.dy=Math.random()>0.5?1:-1; a.dx=0;}
+        else{a.road='h'; a.y=hRoads[Math.floor(Math.random()*hRoads.length)]; a.dx=Math.random()>0.5?1:-1; a.dy=0;}
+      }
+    });
+    requestAnimationFrame(draw);
+  }
+  draw();
+}
 let sec=64;setInterval(()=>{sec++;const m=String(Math.floor(sec/60)).padStart(2,'0'),s=String(sec%60).padStart(2,'0');const el=document.getElementById('callT');if(el)el.textContent=`${m}:${s}`},1000);
 </script>
 </body>
