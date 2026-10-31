@@ -19,20 +19,14 @@
 .eyebrow{font-size:11px;letter-spacing:1px;color:var(--cyan);font-weight:800;display:flex;gap:8px;align-items:center}.eyebrow .n{background:var(--cyan);color:#000;padding:2px 6px;border-radius:4px}h1,h2{font-size:40px;line-height:.95;letter-spacing:-1px}.lede{color:var(--muted);margin-top:12px;line-height:1.6;font-size:14px}.stat{margin:12px 0;font-size:12px;color:var(--amber)}.stat b{font-size:28px;color:#fff}
 .win{background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.5)}.tb{display:flex;align-items:center;gap:10px;padding:10px 12px;border-bottom:1px solid var(--line);font-size:11px;color:var(--muted);flex-wrap:wrap}.tb .app{font-weight:900;color:var(--cyan)}.pad{padding:14px}.row2{display:flex;justify-content:space-between;gap:8px;padding:8px 0;border-bottom:1px solid #ffffff08;font-size:12px;flex-wrap:wrap}.chip{display:inline-flex;align-items:center;gap:6px;padding:3px 8px;border-radius:20px;font-size:10px;font-weight:800;border:1px solid var(--line);background:#0f172a;color:#cbd5e1}.chip.g{border-color:#22e39a55;color:#22e39a}.chip.c{border-color:#00e0ff55;color:#00e0ff}.chip.r{border-color:#ff2d5555;color:#ff2d55}
 .audit{width:100%;border-collapse:collapse;font-size:12px}.audit th{color:var(--muted);text-align:left;font-weight:700;padding:6px}.audit td{padding:8px 6px;border-top:1px solid #ffffff08}
-/* MAP EXACT LIKE BLUECARRECOVERY.COM */
-#isomap{width:100%;height:360px;background:#070e25;position:relative;overflow:hidden;display:block;border-radius:8px}
+/* NEW 3D MAP EXACT LIKE IMAGE */
+#isomap{width:100%;height:520px;background:#060d24;position:relative;overflow:hidden;border-radius:8px;display:block}
 #isomap canvas{position:absolute;inset:0;width:100%;height:100%}
-.map-badge{position:absolute;font:9px ui-monospace;font-weight:900;padding:4px 8px;border-radius:6px;border:1px solid;background:#0f2818;color:#22e39a;letter-spacing:.5px;box-shadow:0 0 12px #22e39a55;z-index:2}
-.map-drivers{position:absolute;right:0;top:0;bottom:0;width:155px;background:rgba(10,18,40,.92);border-left:1px solid #1e2a4a;padding:10px;font-size:10px;color:#8a90a8;z-index:2}
+.badge{position:absolute;z-index:2;font:9px ui-monospace;font-weight:900;padding:6px 10px;border-radius:8px;border:1px solid;display:flex;gap:6px;align-items:center;white-space:nowrap;box-shadow:0 4px 20px rgba(0,0,0,.6)}
+.badge.g{background:#0f2818;border-color:#22e39a;color:#22e39a}
 .sec{max-width:1200px;margin:60px auto;padding:0 18px}.rows{display:grid;gap:10px;margin-top:20px}.srow{display:grid;grid-template-columns:70px 140px 1fr 1fr;gap:12px;padding:14px;background:var(--panel);border:1px solid var(--line);border-radius:12px;font-size:12px}.form input,.form select,.form textarea{width:100%;padding:14px;border-radius:10px;border:1px solid var(--line);background:#0b1020;color:#fff;margin-top:8px;font-size:16px}.form label{font-size:10px;color:var(--muted);font-weight:700;letter-spacing:.5px;text-transform:uppercase}
 footer{padding:40px 18px;color:var(--muted);font-size:11px;border-top:1px solid var(--line);margin-top:60px}
-@media(max-width:900px){
-  .chap{grid-template-columns:1fr;padding:30px 0}
-  h1,h2{font-size:26px !important;line-height:1.1}
-  .srow{grid-template-columns:1fr}
-  #isomap{height:300px}
-  .map-drivers{width:110px}
-}
+@media(max-width:900px){.chap{grid-template-columns:1fr;padding:30px 0}h1,h2{font-size:26px !important;line-height:1.1}.srow{grid-template-columns:1fr}#isomap{height:380px}}
 </style>
 </head>
 <body>
@@ -69,25 +63,17 @@ footer{padding:40px 18px;color:var(--muted);font-size:11px;border-top:1px solid 
 <div class="win"><div class="tb"><span class="app">ABR SYSTEM</span> Case ABR-48213 - Northline Auto Finance <span class="chip g" style="margin-left:auto">Verifying</span></div><div class="pad"><div class="row2"><span>Account confirmed with lender</span><span>Acct 30-2291</span></div><div class="row2"><span>VIN verified against title</span><span>…018406</span></div><div class="row2"><span>Collateral matched</span><span>2020 Sedan - Anaheim</span></div><div class="row2"><span>Authority to recover on file</span><span>Signed 10/05</span></div></div></div>
 </section>
 <div class="h-sep"></div>
-<section class="chap" data-name="Live map" data-clock="T+2D 14:20">
-<div><div class="eyebrow"><span class="n">02</span> LOCATE AND RECOVER</div><div class="stat"><b>3</b> DAYS TO RECOVERED</div><h2>Watch the field move in real time.</h2><p class="lede">Licensed agents and drivers across Los Angeles, Long Beach and Anaheim on one live map. Photos and GPS logged on scene from Anaheim HQ.</p></div>
-<div class="win"><div class="tb"><span class="app">HARBOR CITY - LIVE FIELD</span> Drivers - Southern California <span class="chip c" style="margin-left:auto">● Live</span></div><div class="pad" style="padding:0">
+<section class="chap" data-name="Live map - 3D Dispatch" data-clock="T+2D 14:20">
+<div><div class="eyebrow"><span class="n">02</span> LOCATE AND RECOVER - 3D DISPATCH</div><div class="stat"><b>3</b> DAYS TO RECOVERED</div><h2>Watch the field move in real time - 3D city.</h2><p class="lede">This is exactly the 3D isometric map like bluecarrecovery.com - real 3D blocks, glowing neon routes, moving dots. Built with pure code, no image.</p></div>
+<div class="win"><div class="tb"><span class="app">DISPATCH MAP • REPO RECOVERY • LIVE</span><span class="chip c" style="margin-left:auto">STATUS: ACTIVE • 03:12 UTC • OPERATOR: UNIT-07</span></div><div class="pad" style="padding:0">
 <div id="isomap">
 <canvas id="mapCanvas"></canvas>
-<div class="map-badge" style="left:32%;top:26%">● RECOVERED</div>
-<div class="map-badge" style="left:52%;top:68%">● RECOVERED</div>
-<div class="map-drivers">
-<div>Coastline Recovery - BCR-48217</div>
-<div style="margin-top:12px"><span style="color:var(--pink)">●</span> <b style="color:#fff">Luis Abernathy</b><br><small>Inland Asset Services - BCR-48236</small><br><span style="color:var(--emerald)">Recovered</span></div>
-<div style="margin-top:24px;border-top:1px solid #1e2a4a;padding-top:8px">RECOVERED TODAY<br><b style="font-size:22px;color:#fff">17</b><br>Photos logged at scene</div>
-<div style="margin-top:12px;font-size:9px">T+2D 14:20<br>CASE BCR-48213</div>
+<div class="badge g" style="left:66%;top:40%"><span style="width:16px;height:16px;background:#22e39a;border-radius:50%;display:grid;place-items:center;color:#000">✓</span> RECOVERED</div>
+<div class="badge g" style="left:38%;top:70%"><span style="width:16px;height:16px;background:#22e39a;border-radius:50%;display:grid;place-items:center;color:#000">✓</span> RECOVERED</div>
+<div style="position:absolute;left:10px;bottom:10px;z-index:2;background:rgba(10,18,40,.92);border:1px solid #1e2a4a;padding:8px 10px;border-radius:6px;font:9px ui-monospace;color:#8a90a8">ROUTES<br><span style="color:#ffb03a">— ROUTE A</span> &nbsp; <span style="color:#00e0ff">— ROUTE B - CYAN</span><br><span style="color:#00e0ff">— AMBER</span> &nbsp; <span style="color:#ff2d8a">— ROUTE C - MAGENTA</span></div>
+<div style="position:absolute;right:10px;bottom:10px;z-index:2;background:rgba(10,18,40,.92);border:1px solid #1e2a4a;padding:8px 10px;border-radius:6px;font:9px ui-monospace;color:#8a90a8">STATS<br><span style="color:#22e39a">ACTIVE OPS: 3<br>RECOVERED: 2</span><br><span style="color:#fff">SECURE</span></div>
 </div>
-</div>
-<div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:10px;gap:8px;background:#0f172a;font-size:11px">
-<div>● Theo M. - Anaheim - 2 min</div>
-<div>● Dana W. - Long Beach - 12 min</div>
-<div>● Luis A. - Los Angeles - 6 min</div>
-</div>
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:10px;gap:8px;background:#0f172a;font-size:11px"><div>● Theo M. - Anaheim - 2 min</div><div>● Dana W. - Long Beach - 12 min</div><div>● Luis A. - Los Angeles - 6 min</div></div>
 </div></div>
 </section>
 <div class="h-sep"></div>
@@ -140,42 +126,55 @@ const hudCh=document.getElementById('hudCh');const hudName=document.getElementBy
 function onScroll(){const h=window.innerHeight;let active=chaps[0];let progress=0;chaps.forEach((c,i)=>{const r=c.getBoundingClientRect();if(r.top < h*0.6){active=c;progress=(i+1)/chaps.length}if(r.top < h*0.7 && r.bottom > h*0.3){c.classList.add('play')}});hudCh.textContent=`CH 0${chaps.indexOf(active)+1} / 0${chaps.length}`;hudName.textContent=active.dataset.name||'';hudClock.textContent=active.dataset.clock||'';rulerHead.style.left=(progress*100)+'%';floor.style.setProperty('--gy',(window.scrollY*0.2)+'px');}
 window.addEventListener('scroll',onScroll,{passive:true});onScroll();
 
-// MAP LIKE BLUECARRECOVERY.COM
+// 3D CITY LIKE BLUECARRECOVERY.COM - PURE CODE
 const canvas=document.getElementById('mapCanvas');
 const ctx=canvas.getContext('2d');
 function resize(){canvas.width=canvas.offsetWidth*2; canvas.height=canvas.offsetHeight*2;}
-resize(); window.addEventListener('resize',resize);
-const routes=[
-  {pts:[[0.15,0.22],[0.45,0.42],[0.82,0.66],[0.88,0.82]], color:'#ffb03a'},
-  {pts:[[0.08,0.85],[0.32,0.70],[0.55,0.55],[0.78,0.38],[0.90,0.18]], color:'#00e0ff'},
-  {pts:[[0.05,0.52],[0.28,0.50],[0.45,0.60],[0.68,0.72],[0.85,0.78]], color:'#ff2d8a'}
-];
-function drawCity(){
-  ctx.fillStyle='#0a132c'; ctx.fillRect(0,0,canvas.width,canvas.height);
-  ctx.strokeStyle='#14244d'; ctx.lineWidth=1;
-  for(let x=-200;x<canvas.width+200;x+=34){ctx.beginPath();ctx.moveTo(x,0);ctx.lineTo(x+220,220);ctx.stroke();}
-  for(let y=-200;y<canvas.height+200;y+=34){ctx.beginPath();ctx.moveTo(0,y);ctx.lineTo(canvas.width,y+130);ctx.stroke();}
-  ctx.fillStyle='#102040';
-  for(let i=0;i<600;i++){const x=(i*71%canvas.width), y=(i*41%canvas.height), w=5+Math.random()*14, h=3+Math.random()*10; if(i%3===0) ctx.fillRect(x,y,w,h);}
+resize(); window.addEventListener('resize',()=>{resize(); initBuildings();});
+let buildings=[];
+function initBuildings(){
+  buildings=[]; const cols=18, rows=16;
+  for(let r=0;r<rows;r++){for(let c=0;c<cols;c++){if(Math.random()>0.25){
+    const isoX=(c-r)*38 + canvas.width/2;
+    const isoY=(c+r)*18 + 40;
+    const w=22+Math.random()*18, h=14+Math.random()*10, height=8+Math.random()*35, hasLight=Math.random()>0.6;
+    buildings.push({isoX,isoY,w,h,height,hasLight});
+  }}}
+  buildings.sort((a,b)=>a.isoY-b.isoY);
 }
+function drawIsoBlock(b){
+  const x=b.isoX, y=b.isoY, w=b.w, h=b.h, ht=b.height;
+  ctx.fillStyle='#121f44';
+  ctx.beginPath(); ctx.moveTo(x, y-ht); ctx.lineTo(x+w/2, y-ht+h/2); ctx.lineTo(x, y-ht+h); ctx.lineTo(x-w/2, y-ht+h/2); ctx.closePath(); ctx.fill();
+  if(b.hasLight){ctx.fillStyle='#ffb03a55'; ctx.fillRect(x-3, y-ht+2, 5,5);}
+  ctx.fillStyle='#0d1733'; ctx.beginPath(); ctx.moveTo(x+w/2, y-ht+h/2); ctx.lineTo(x+w/2, y-ht+h/2+ht); ctx.lineTo(x, y-ht+h+ht); ctx.lineTo(x, y-ht+h); ctx.closePath(); ctx.fill();
+  ctx.fillStyle='#0a122a'; ctx.beginPath(); ctx.moveTo(x-w/2, y-ht+h/2); ctx.lineTo(x-w/2, y-ht+h/2+ht); ctx.lineTo(x, y-ht+h+ht); ctx.lineTo(x, y-ht+h); ctx.closePath(); ctx.fill();
+}
+const routes=[
+  {pts:[[0.112,0.168],[0.251,0.27],[0.332,0.335],[0.412,0.398],[0.552,0.51],[0.681,0.61],[0.751,0.671],[0.825,0.749],[0.872,0.804]], color:'#ffb03a'},
+  {pts:[[0.102,0.805],[0.202,0.731],[0.272,0.682],[0.362,0.615],[0.451,0.548],[0.521,0.495],[0.602,0.428],[0.682,0.368],[0.761,0.308],[0.831,0.252],[0.912,0.188],[0.948,0.136]], color:'#00e0ff'},
+  {pts:[[0.002,0.505],[0.112,0.492],[0.202,0.485],[0.312,0.512],[0.432,0.595],[0.512,0.652],[0.602,0.695],[0.702,0.721],[0.802,0.741],[0.852,0.775],[0.892,0.835]], color:'#ff2d8a'}
+];
 let t=0;
 function animate(){
-  drawCity();
+  ctx.fillStyle='#070d26'; ctx.fillRect(0,0,canvas.width,canvas.height);
+  ctx.strokeStyle='#15264d'; ctx.lineWidth=0.8;
+  for(let i=0;i<30;i++){const y=i*42+20; ctx.beginPath(); ctx.moveTo(0,y); ctx.lineTo(canvas.width,y+canvas.width*0.2); ctx.stroke();}
+  for(let i=0;i<30;i++){const x=i*62-200; ctx.beginPath(); ctx.moveTo(x,0); ctx.lineTo(x+400,canvas.height); ctx.stroke();}
+  buildings.forEach(b=>drawIsoBlock(b));
   routes.forEach(r=>{
-    ctx.shadowColor=r.color; ctx.shadowBlur=18; ctx.strokeStyle=r.color; ctx.lineWidth=5; ctx.lineCap='round'; ctx.lineJoin='round';
-    ctx.beginPath();
-    r.pts.forEach((p,i)=>{const x=p[0]*canvas.width, y=p[1]*canvas.height; if(i===0) ctx.moveTo(x,y); else ctx.lineTo(x,y);});
-    ctx.stroke(); ctx.shadowBlur=0;
-    const prog=(t*0.00035)%1;
-    const total=r.pts.length-1, f=prog*total, idx=Math.floor(f), lt=f-idx;
+    ctx.shadowColor=r.color; ctx.shadowBlur=22; ctx.strokeStyle=r.color; ctx.lineWidth=6; ctx.lineCap='round'; ctx.lineJoin='round';
+    ctx.beginPath(); r.pts.forEach((p,i)=>{const x=p[0]*canvas.width, y=p[1]*canvas.height*0.9+60; if(i===0) ctx.moveTo(x,y); else ctx.lineTo(x,y);}); ctx.stroke(); ctx.shadowBlur=0;
+    r.pts.forEach(p=>{const x=p[0]*canvas.width, y=p[1]*canvas.height*0.9+60; ctx.shadowColor=r.color; ctx.shadowBlur=12; ctx.fillStyle=r.color; ctx.beginPath(); ctx.arc(x,y,4,0,Math.PI*2); ctx.fill(); ctx.shadowBlur=0;});
+    const prog=(t*0.00025)%1; const total=r.pts.length-1, f=prog*total, idx=Math.floor(f), lt=f-idx;
     const p1=r.pts[idx], p2=r.pts[Math.min(idx+1,total)];
-    const x=(p1[0]+(p2[0]-p1[0])*lt)*canvas.width, y=(p1[1]+(p2[1]-p1[1])*lt)*canvas.height;
-    ctx.shadowColor=r.color; ctx.shadowBlur=16; ctx.fillStyle='#fff'; ctx.beginPath(); ctx.arc(x,y,7,0,Math.PI*2); ctx.fill();
-    ctx.fillStyle=r.color; ctx.beginPath(); ctx.arc(x,y,4,0,Math.PI*2); ctx.fill(); ctx.shadowBlur=0;
+    const x=(p1[0]+(p2[0]-p1[0])*lt)*canvas.width, y=(p1[1]+(p2[1]-p1[1])*lt)*canvas.height*0.9+60;
+    ctx.shadowColor=r.color; ctx.shadowBlur=20; ctx.fillStyle='#fff'; ctx.beginPath(); ctx.arc(x,y,10,0,Math.PI*2); ctx.fill();
+    ctx.fillStyle=r.color; ctx.beginPath(); ctx.arc(x,y,5.5,0,Math.PI*2); ctx.fill(); ctx.shadowBlur=0;
   });
   t+=16; requestAnimationFrame(animate);
 }
-animate();
+initBuildings(); animate();
 let sec=64;setInterval(()=>{sec++;const m=String(Math.floor(sec/60)).padStart(2,'0'),s=String(sec%60).padStart(2,'0');const el=document.getElementById('callT');if(el)el.textContent=`${m}:${s}`},1000);
 </script>
 </body>
