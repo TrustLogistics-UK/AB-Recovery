@@ -3,73 +3,53 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>AB Recovery - Anaheim, CA</title>
+<title>AB RECOVERY - Anaheim CA - Stolen Recovery</title>
 <style>
-:root{--bg:#070d26;--panel:#111a33;--line:#1e2a4a;--text:#d9deea;--muted:#8a90a8;--cyan:#00e0ff;--amber:#ffb03a;--emerald:#22e39a;--red:#ff2d55}
-*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}body{background:var(--bg);color:var(--text);font-family:Inter,system-ui,sans-serif;overflow-x:hidden;padding-bottom:140px}
-.h-sep{height:1px;background:var(--cyan);box-shadow:0 0 20px var(--cyan);opacity:.6}
-.bar{position:sticky;top:0;z-index:100;display:flex;align-items:center;gap:16px;padding:12px 18px;background:rgba(7,13,38,.96);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
-.bar__logo{display:flex;align-items:center;gap:10px;font-weight:900;color:#fff;text-decoration:none;font-size:14px;letter-spacing:.5px;white-space:nowrap;flex-shrink:0}
-.bar__logo i{width:32px;height:32px;min-width:32px;background:var(--cyan);color:#000;display:grid;place-items:center;border-radius:8px;font-style:normal;font-weight:900}
-.bar nav{margin-left:auto;display:flex;gap:14px;align-items:center;white-space:nowrap;overflow-x:auto}.bar nav a{font-size:11px;font-weight:700;color:var(--muted);text-decoration:none}
-.btn{padding:10px 16px;border-radius:10px;font-weight:800;font-size:11px;border:1px solid var(--line);background:#fff;color:#0b1020;text-decoration:none;white-space:nowrap;flex-shrink:0}.btn.primary{background:var(--cyan);border-color:var(--cyan)}
-.toggle{display:flex;gap:8px;margin-top:16px;background:var(--panel);border:1px solid var(--line);padding:6px;border-radius:12px;width:fit-content;flex-wrap:wrap}.toggle button{padding:8px 14px;border-radius:8px;border:0;background:transparent;color:var(--muted);font-weight:800;font-size:11px;cursor:pointer}.toggle button.active{background:var(--cyan);color:#000}
+:root{--bg:#070d26;--panel:#111a33;--line:#1e2a4a;--text:#d9deea;--muted:#8a90a8;--cyan:#00e0ff;--amber:#ffb03a;--emerald:#22e39a}
+*{margin:0;padding:0;box-sizing:border-box}body{background:var(--bg);color:var(--text);font-family:Inter,sans-serif;overflow-x:hidden}
+.bar{position:sticky;top:0;z-index:100;display:flex;align-items:center;gap:16px;padding:12px 18px;background:#070d26;border-bottom:1px solid var(--line)}
+.bar__logo{display:flex;align-items:center;gap:10px;font-weight:900;color:#fff;text-decoration:none;white-space:nowrap;flex-shrink:0;font-size:14px}
+.bar__logo i{width:32px;min-width:32px;height:32px;background:var(--cyan);color:#000;display:grid;place-items:center;border-radius:8px;font-style:normal}
+.bar nav{margin-left:auto;display:flex;gap:14px;white-space:nowrap;overflow-x:auto}.bar nav a{font-size:11px;color:var(--muted);text-decoration:none;font-weight:700}
+.btn{padding:10px 16px;border-radius:10px;font-weight:800;font-size:11px;background:#fff;color:#000;text-decoration:none;white-space:nowrap;flex-shrink:0}.btn.primary{background:var(--cyan)}
 #story{max-width:1300px;margin:0 auto;padding:0 18px}
-.chap{padding:50px 0;display:grid;grid-template-columns:1.1fr .9fr;gap:30px;border-bottom:1px dashed #ffffff10}
-.eyebrow{font-size:11px;letter-spacing:1px;color:var(--cyan);font-weight:800;display:flex;gap:8px;align-items:center}.n{background:var(--cyan);color:#000;padding:2px 6px;border-radius:4px}h1,h2{font-size:40px;line-height:.95;letter-spacing:-1px}.lede{color:var(--muted);margin-top:12px;line-height:1.6;font-size:14px}.stat{margin:12px 0;font-size:12px;color:var(--amber)}.stat b{font-size:28px;color:#fff}
-.win{background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.5)}.tb{display:flex;align-items:center;gap:10px;padding:10px 12px;border-bottom:1px solid var(--line);font-size:11px;color:var(--muted);flex-wrap:wrap}.app{font-weight:900;color:var(--cyan)}.pad{padding:14px}.row2{display:flex;justify-content:space-between;gap:8px;padding:8px 0;border-bottom:1px solid #ffffff08;font-size:12px;flex-wrap:wrap}.chip{display:inline-flex;align-items:center;gap:6px;padding:3px 8px;border-radius:20px;font-size:10px;font-weight:800;border:1px solid var(--line);background:#0f172a;color:#cbd5e1}.chip.g{border-color:#22e39a55;color:#22e39a}.chip.c{border-color:#00e0ff55;color:#00e0ff}.chip.r{border-color:#ff2d5555;color:#ff2d55}
+.chap{padding:40px 0;display:grid;grid-template-columns:1.1fr .9fr;gap:30px;border-bottom:1px dashed #ffffff10}
+h1,h2{font-size:40px;line-height:.95;letter-spacing:-1px}.lede{color:var(--muted);margin-top:12px;line-height:1.6;font-size:14px}
+.win{background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden}.tb{display:flex;gap:10px;padding:10px 12px;border-bottom:1px solid var(--line);font-size:11px;color:var(--muted)}.app{color:var(--cyan);font-weight:900}.pad{padding:14px}.row2{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid #ffffff08;font-size:12px}.chip{padding:3px 8px;border-radius:20px;font-size:10px;font-weight:800;border:1px solid var(--line);background:#0f172a}.chip.g{color:var(--emerald);border-color:#22e39a55}.chip.c{color:var(--cyan);border-color:#00e0ff55}
 #isomap{width:100%;height:620px;background:#020a1f;position:relative;overflow:hidden;border-radius:8px}
 #isomap canvas{position:absolute;inset:0;width:100%;height:100%}
-.badge{position:absolute;z-index:2;font:9px ui-monospace;font-weight:900;padding:6px 10px;border-radius:8px;border:1px solid;display:flex;gap:6px;align-items:center;box-shadow:0 4px 20px rgba(0,0,0,.6)}.badge.g{background:#0f2818;border-color:#22e39a;color:#22e39a}
-.sec{max-width:1200px;margin:60px auto;padding:0 18px}.rows{display:grid;gap:10px;margin-top:20px}.srow{display:grid;grid-template-columns:70px 140px 1fr 1fr;gap:12px;padding:14px;background:var(--panel);border:1px solid var(--line);border-radius:12px;font-size:12px}.form input,.form select,.form textarea{width:100%;padding:14px;border-radius:10px;border:1px solid var(--line);background:#0b1020;color:#fff;margin-top:8px;font-size:16px}.form label{font-size:10px;color:var(--muted);font-weight:700;text-transform:uppercase}
-footer{padding:40px 18px;color:var(--muted);font-size:11px;border-top:1px solid var(--line);margin-top:60px}
-@media(max-width:900px){.chap{grid-template-columns:1fr;padding:30px 0}h1,h2{font-size:26px!important}.srow{grid-template-columns:1fr}#isomap{height:500px}}
+.badge{position:absolute;z-index:2;font:9px ui-monospace;font-weight:900;padding:6px 10px;border-radius:8px;border:1px solid #22e39a;background:#0f2818;color:#22e39a;display:flex;gap:6px;align-items:center}
+@media(max-width:900px){.chap{grid-template-columns:1fr}h1,h2{font-size:26px!important}#isomap{height:500px}}
 </style>
 </head>
 <body>
 <header class="bar">
 <a class="bar__logo" href="#"><i>AB</i> AB RECOVERY</a>
-<nav><a href="#services">Services</a><a href="#network">Network</a><a href="#">Stolen</a><a href="#">Lenders</a><a href="#contact">Contact</a></nav>
+<nav><a href="#">Services</a><a href="#">Network</a><a href="#">Stolen</a><a href="#">Lenders</a><a href="#">Contact</a></nav>
 <a class="btn primary" href="#contact">Get Help →</a>
 </header>
 <main id="story">
 <section class="chap">
 <div>
-<div class="eyebrow">// 174 W LINCOLN AVE, ANAHEIM, CA — LA / LONG BEACH / ANAHEIM</div>
-<h1>Your car was stolen?<br><em style="color:var(--cyan)">We find it. Documented at every step.</em></h1>
-<p class="lede"><b style="color:#fff">For ordinary owners:</b> Stolen vehicle recovery across LA Basin.<br><b style="color:#fff">For lenders:</b> Repossession, impound, locksmith, post-recovery — Anaheim HQ + 50 states partners.</p>
-<div class="toggle"><button class="active" id="btnOwner" onclick="switchMode('owner')">I'm an Owner - Car Stolen</button><button id="btnLender" onclick="switchMode('lender')">I'm a Lender / Bank</button></div>
-<div id="ownerCTA" style="margin-top:16px;display:flex;gap:10px;flex-wrap:wrap"><a class="btn primary" href="#contact">Report Stolen Vehicle →</a></div>
-<div id="lenderCTA" style="margin-top:16px;display:none;gap:10px;flex-wrap:wrap"><a class="btn primary" href="#contact">Request Lender Quote →</a></div>
+<div style="font-size:11px;color:var(--cyan);font-weight:800">// 174 W LINCOLN AVE, ANAHEIM, CA</div>
+<h1>Your car was stolen?<br><em style="color:var(--cyan)">We find it.</em></h1>
+<p class="lede">Stolen recovery + lender repossession. LA / Long Beach / Anaheim. Dense 3D dispatch map with real streets between buildings.</p>
 </div>
-<div class="win"><div class="tb"><span class="app">ABR SYSTEM</span> Live Recoveries Today <span class="chip r" style="margin-left:auto">● STOLEN + LENDER</span></div><div class="pad"><div class="row2"><span>2021 Camry - Stolen - Anaheim - ABR-48213</span><span class="chip g">Recovered 14 hrs</span></div><div class="row2"><span>2019 Accord - Stolen - Long Beach</span><span class="chip c">● Tracking</span></div></div></div>
+<div class="win"><div class="tb"><span class="app">ABR SYSTEM</span> Live Recoveries Today</div><div class="pad"><div class="row2"><span>2021 Camry - Stolen - Anaheim</span><span class="chip g">Recovered</span></div><div class="row2"><span>2019 Accord - Long Beach</span><span class="chip c">● Tracking</span></div></div></div>
 </section>
-<div class="h-sep"></div>
 <section class="chap" style="grid-template-columns:1fr">
-<div><div class="eyebrow"><span class="n">02</span> LOCATE AND RECOVER - 3D DISPATCH - PURE CODE, DOTS IN STREETS</div><div class="stat"><b>3</b> DAYS TO RECOVERED</div><h2>Watch cars drive BETWEEN buildings on real streets. No image. Pure code.</h2></div>
-<div class="win"><div class="tb"><span class="app">DISPATCH MAP • REPO RECOVERY • LIVE</span><span class="chip c" style="margin-left:auto">STATUS: ACTIVE • 03:12 UTC • OPERATOR: UNIT-07</span></div><div class="pad" style="padding:0">
+<div class="win"><div class="tb"><span class="app">DISPATCH MAP • REPO RECOVERY • LIVE - PURE CODE - DOTS IN STREETS</span><span class="chip c" style="margin-left:auto">STATUS: ACTIVE • 03:12 UTC • OPERATOR: UNIT-07</span></div>
+<div class="pad" style="padding:0">
 <div id="isomap">
 <canvas id="mapCanvas"></canvas>
-<div class="badge g" style="left:66%;top:32%">✓ RECOVERED</div>
-<div class="badge g" style="left:32%;top:58%">✓ RECOVERED</div>
-<div style="position:absolute;left:10px;bottom:10px;z-index:2;background:rgba(10,18,40,.92);border:1px solid #1e2a4a;padding:8px 10px;border-radius:6px;font:9px ui-monospace;color:#8a90a8">PURE CODE<br><span style="color:#ffb03a">— AMBER: ANAHEIM - PORT</span><br><span style="color:#00e0ff">— CYAN: I-405 - LONG BEACH</span><br><span style="color:#ff2d8a">— MAGENTA: LOS ANGELES</span></div>
-<div style="position:absolute;right:10px;bottom:10px;z-index:2;background:rgba(10,18,40,.92);border:1px solid #1e2a4a;padding:8px 10px;border-radius:6px;font:9px ui-monospace;color:#8a90a8">STATS<br><span style="color:#22e39a">ACTIVE OPS: 3<br>RECOVERED: 2</span><br><span style="color:#fff">DOTS IN STREETS</span></div>
+<div class="badge" style="left:68%;top:32%">✓ RECOVERED</div>
+<div class="badge" style="left:32%;top:58%">✓ RECOVERED</div>
+<div style="position:absolute;left:10px;bottom:10px;z-index:2;background:rgba(10,18,40,.92);border:1px solid #1e2a4a;padding:8px 10px;border-radius:6px;font:9px ui-monospace;color:#8a90a8">PURE CODE - NO IMAGE<br><span style="color:#ffb03a">— AMBER: ANAHEIM-PORT</span><br><span style="color:#00e0ff">— CYAN: I-405</span><br><span style="color:#ff2d8a">— MAGENTA: LOS ANGELES</span></div>
 </div>
-<div style="display:grid;grid-template-columns:1fr 1fr 1fr;padding:10px;gap:8px;background:#0f172a;font-size:11px"><div>● Theo M. - Anaheim - 2 min</div><div>● Dana W. - Long Beach - 12 min</div><div>● Luis A. - Los Angeles - 6 min</div></div>
 </div></div>
 </section>
 </main>
-<div class="h-sep"></div>
-<section class="sec" id="services"><div class="eyebrow">// Services</div><h2>Five service lines, one accountable team.</h2><div class="rows"><div class="srow"><span>SVC-00</span><b>Stolen Vehicle Recovery</b><span>Flat fee</span><span style="color:var(--muted)">LA / Long Beach / Anaheim</span></div></div></section>
-<section class="sec" id="contact"><div class="eyebrow">// Contact AB Recovery</div><h2>Stolen car? Report now.</h2><form class="form win pad" action="https://formsubmit.co/Abrecovers@gmail.com" method="POST"><input type="hidden" name="_subject" value="NEW AB Recovery Lead"><input type="hidden" name="_captcha" value="false"><input type="hidden" name="_template" value="table"><input type="hidden" name="_next" value="thank-you.html"><div><label>I am a...</label><select name="user_type" id="userType"><option value="owner">Ordinary Owner - Car Stolen</option><option value="lender">Lender / Bank</option></select></div><div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:8px"><div><label>Full Name</label><input name="name" required placeholder="John Doe"></div><div><label>Phone</label><input name="phone" required placeholder="(714)..."></div></div><div><label>Message</label><textarea name="message" rows="3"></textarea></div><button class="btn primary" style="margin-top:10px;width:100%" type="submit">Send to AB Recovery HQ →</button></form></section>
-<footer><div style="max-width:1200px;margin:0 auto;display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between"><div><b style="color:#fff">AB Recovery</b> - 174 W Lincoln Ave, Unit 532, Anaheim, CA 92805</div><div>© 2026 AB Recovery</div></div></footer>
 <script>
-function switchMode(m){
-  const oc=document.getElementById('ownerCTA'), lc=document.getElementById('lenderCTA'), bo=document.getElementById('btnOwner'), bl=document.getElementById('btnLender');
-  if(m==='owner'){oc.style.display='flex';lc.style.display='none';bo.classList.add('active');bl.classList.remove('active');}
-  else{oc.style.display='none';lc.style.display='flex';bo.classList.remove('active');bl.classList.add('active');}
-}
-// PURE CODE CITY - NO IMAGE - DOTS DRIVE IN STREETS BETWEEN BUILDINGS
 const canvas=document.getElementById('mapCanvas');
 const ctx=canvas.getContext('2d');
 let W,H,buildings=[],routes=[];
@@ -81,31 +61,26 @@ function resize(){
 function buildCity(){
   buildings=[]; routes=[];
   const cx=W/2;
-  const GRID=42;
-  const cellW=26, cellH=13;
-  // 1 = building, 0 = street
+  const GRID=48;
+  const cellW=22, cellH=11;
   const grid=[];
   for(let r=0;r<GRID;r++){
     grid[r]=[];
     for(let c=0;c<GRID;c++){
-      // ocean bottom-left: no buildings
       const isoX=(c-r)*cellW+cx;
-      const isoY=(c+r)*cellH-80;
-      const isOcean = (isoX < W*0.28 && isoY > H*0.62) || (isoX < W*0.5 && isoY > H*0.82);
+      const isoY=(c+r)*cellH-60;
+      const isOcean = (isoX < W*0.32 && isoY > H*0.58) || (isoY > H*0.84);
       if(isOcean){ grid[r][c]=-1; continue; }
-      // main streets every 4
-      const isMainStreet = (c%4===0 || r%4===0);
-      // port bottom: sparse small buildings
-      const isPort = (r>30 && c<18);
-      if(isPort){ grid[r][c]= (Math.random()>0.6?1:0); continue; }
-      grid[r][c]= isMainStreet ? 0 : (Math.random()>0.18?1:0);
+      const isStreet = (c%4===0 || r%4===0);
+      const isPort = (r>36 && c<20);
+      if(isPort){ grid[r][c]= Math.random()>0.65?1:0; continue; }
+      grid[r][c]= isStreet?0:(Math.random()>0.15?1:0);
     }
   }
-  // carve 3 routes as wide street corridors
   const routeGrids=[
-    [[1,1],[4,3],[7,5],[10,7],[13,9],[16,12],[19,15],[22,18],[25,21],[28,23],[31,26]], // magenta LA top-left to center
-    [[6,34],[8,30],[10,26],[12,22],[14,18],[16,14],[18,10],[20,6],[22,2]], // cyan I-405 vertical bottom to top
-    [[2,6],[6,8],[10,10],[15,13],[20,16],[24,19],[28,22],[32,26],[36,28],[40,30],[41,34],[38,36],[34,38],[28,40],[20,38],[14,36]] // amber loop Anaheim to port
+    [[1,1],[5,3],[9,6],[13,9],[17,12],[21,15],[25,18],[29,21],[33,24],[37,26],[41,28]],
+    [[8,42],[10,36],[12,30],[14,24],[16,18],[18,12],[20,6],[22,1]],
+    [[2,6],[8,9],[14,12],[20,15],[26,19],[32,23],[38,26],[42,29],[44,33],[40,38],[34,42],[26,44],[18,42],[12,38]]
   ];
   routeGrids.forEach(rg=>{
     rg.forEach(([c,r])=>{
@@ -114,93 +89,52 @@ function buildCity(){
       }
     });
   });
-  // build building objects
   for(let r=0;r<GRID;r++){
     for(let c=0;c<GRID;c++){
       if(grid[r][c]===1){
-        const x=(c-r)*cellW+cx + (Math.random()*4-2);
-        const y=(c+r)*cellH-80 + (Math.random()*3-1);
-        if(y>-100 && y<H+100 && x>-100 && x<W+100){
-          const w=10+Math.random()*8;
-          const h=7+Math.random()*4;
-          const ht=8+Math.random()*44;
-          const isTall = ht>30;
-          buildings.push({x,y,w,h,ht,tall:isTall,glow:Math.random()>0.35});
+        const x=(c-r)*cellW+cx;
+        const y=(c+r)*cellH-60;
+        if(y>-120 && y<H+120 && x>-120 && x<W+120){
+          buildings.push({x,y,w:8+Math.random()*7,h:6+Math.random()*3,ht:6+Math.random()*38,glow:Math.random()>0.4});
         }
       }
     }
   }
   buildings.sort((a,b)=>a.y-b.y);
-  // convert route grids to smooth iso points that stay in streets
   const colors=['#ff2dd2','#00e0ff','#ffb03a'];
   routes=routeGrids.map((rg,i)=>{
-    const pts=rg.map(([c,r])=>({x:(c-r)*cellW+cx, y:(c+r)*cellH-80}));
-    // smooth with catmull-rom to avoid jagged 90deg turns
-    const smooth=[];
-    for(let j=0;j<pts.length-1;j++){
-      smooth.push(pts[j]);
-      // add midpoint to curve
-      const mid={x:(pts[j].x+pts[j+1].x)/2, y:(pts[j].y+pts[j+1].y)/2};
-      smooth.push(mid);
-    }
-    smooth.push(pts[pts.length-1]);
-    return {pts:smooth,color:colors[i],grid:rg};
+    const pts=[];
+    rg.forEach(([c,r])=>{
+      pts.push({x:(c-r)*cellW+cx, y:(c+r)*cellH-60});
+    });
+    return {pts,color:colors[i]};
   });
 }
-function drawBuilding(b){
+function drawB(b){
   const x=b.x,y=b.y,w=b.w,h=b.h,ht=b.ht;
-  // top
-  ctx.fillStyle=b.tall?'#1d335f':'#13224e';
-  if(b.glow) ctx.fillStyle='#1e3a6b';
-  ctx.beginPath();
-  ctx.moveTo(x,y-ht);
-  ctx.lineTo(x+w/2,y-ht+h/2);
-  ctx.lineTo(x,y-ht+h);
-  ctx.lineTo(x-w/2,y-ht+h/2);
-  ctx.closePath(); ctx.fill();
-  // window
-  if(b.glow){
-    ctx.fillStyle=Math.random()>0.5?'#ffbd2e':'#3de0ff';
-    ctx.globalAlpha=0.8;
-    ctx.fillRect(x-1,y-ht+1,2,2);
-    ctx.globalAlpha=1;
-  }
-  // sides
-  ctx.fillStyle='#0c1735';
-  ctx.beginPath(); ctx.moveTo(x+w/2,y-ht+h/2); ctx.lineTo(x+w/2,y-ht+h/2+ht); ctx.lineTo(x,y-ht+h+ht); ctx.lineTo(x,y-ht+h); ctx.closePath(); ctx.fill();
-  ctx.fillStyle='#080e26';
-  ctx.beginPath(); ctx.moveTo(x-w/2,y-ht+h/2); ctx.lineTo(x-w/2,y-ht+h/2+ht); ctx.lineTo(x,y-ht+h+ht); ctx.lineTo(x,y-ht+h); ctx.closePath(); ctx.fill();
-}
-function drawRoute(r){
-  const pts=r.pts;
-  // outer glow
-  ctx.shadowColor=r.color; ctx.shadowBlur=18; ctx.strokeStyle=r.color; ctx.lineWidth=4; ctx.lineCap='round'; ctx.lineJoin='round';
-  ctx.beginPath();
-  pts.forEach((p,i)=>{ i===0?ctx.moveTo(p.x,p.y):ctx.lineTo(p.x,p.y); });
-  ctx.stroke(); ctx.shadowBlur=0;
-  // inner bright core
-  ctx.strokeStyle='#ffffff'; ctx.lineWidth=1; ctx.globalAlpha=0.6;
-  ctx.beginPath(); pts.forEach((p,i)=>{ i===0?ctx.moveTo(p.x,p.y):ctx.lineTo(p.x,p.y); }); ctx.stroke(); ctx.globalAlpha=1;
+  ctx.fillStyle=b.glow?'#1a2f5a':'#12224e';
+  ctx.beginPath(); ctx.moveTo(x,y-ht); ctx.lineTo(x+w/2,y-ht+h/2); ctx.lineTo(x,y-ht+h); ctx.lineTo(x-w/2,y-ht+h/2); ctx.closePath(); ctx.fill();
+  if(b.glow){ ctx.fillStyle='#ffbd2e'; ctx.fillRect(x-1,y-ht+1,1.5,1.5); }
+  ctx.fillStyle='#0c1735'; ctx.beginPath(); ctx.moveTo(x+w/2,y-ht+h/2); ctx.lineTo(x+w/2,y-ht+h/2+ht); ctx.lineTo(x,y-ht+h+ht); ctx.lineTo(x,y-ht+h); ctx.closePath(); ctx.fill();
+  ctx.fillStyle='#080e26'; ctx.beginPath(); ctx.moveTo(x-w/2,y-ht+h/2); ctx.lineTo(x-w/2,y-ht+h/2+ht); ctx.lineTo(x,y-ht+h+ht); ctx.lineTo(x,y-ht+h); ctx.closePath(); ctx.fill();
 }
 let t=0;
 function animate(){
+  ctx.fillStyle='#050d2a'; ctx.fillRect(0,0,W,H);
   // ocean
-  ctx.fillStyle='#06102e'; ctx.fillRect(0,0,W,H);
-  // ocean area bottom-left
-  ctx.fillStyle='#081a3a';
-  ctx.beginPath(); ctx.moveTo(0,H*0.55); ctx.lineTo(W*0.3,H*0.6); ctx.bezierCurveTo(W*0.45,H*0.72,W*0.35,H*0.85,0,H*0.9); ctx.closePath(); ctx.fill();
-  ctx.fillStyle='#0a2248'; ctx.beginPath(); ctx.moveTo(W*0.2,H*0.78); ctx.lineTo(W*0.9,H*0.82); ctx.lineTo(W*0.9,H); ctx.lineTo(0,H); ctx.closePath(); ctx.fill();
-  // beach lights
-  ctx.fillStyle='#ffb03a'; ctx.globalAlpha=0.3;
-  for(let i=0;i<30;i++){ const x=(Math.random()*0.4)*W; const y=H*0.58+Math.random()*H*0.25; ctx.fillRect(x,y,1.5,1.5); }
-  ctx.globalAlpha=1;
-  // buildings
-  buildings.forEach(drawBuilding);
-  // routes (streets between buildings)
-  routes.forEach(drawRoute);
-  // moving cars that stay IN the street gap between buildings
+  ctx.fillStyle='#081e4a'; ctx.fillRect(0,H*0.6,W,H*0.4);
+  ctx.fillStyle='#0a2a5e'; ctx.beginPath(); ctx.moveTo(0,H*0.58); ctx.lineTo(W*0.35,H*0.62); ctx.lineTo(W*0.5,H*0.78); ctx.lineTo(0,H*0.8); ctx.closePath(); ctx.fill();
+  // buildings first
+  buildings.forEach(drawB);
+  // routes in street gaps
   routes.forEach(r=>{
-    const prog=(t*0.00035)%1;
+    ctx.shadowColor=r.color; ctx.shadowBlur=16; ctx.strokeStyle=r.color; ctx.lineWidth=3.5; ctx.lineCap='round'; ctx.lineJoin='round';
+    ctx.beginPath(); r.pts.forEach((p,i)=>{ i===0?ctx.moveTo(p.x,p.y):ctx.lineTo(p.x,p.y); }); ctx.stroke(); ctx.shadowBlur=0;
+    ctx.strokeStyle='#fff'; ctx.lineWidth=0.8; ctx.globalAlpha=0.5; ctx.beginPath(); r.pts.forEach((p,i)=>{ i===0?ctx.moveTo(p.x,p.y):ctx.lineTo(p.x,p.y); }); ctx.stroke(); ctx.globalAlpha=1;
+  });
+  // cars IN streets - because street cells have no buildings, they are BETWEEN buildings
+  routes.forEach(r=>{
+    const prog=(t*0.0004)%1;
     const total=r.pts.length-1;
     const f=prog*total;
     const idx=Math.floor(f);
@@ -208,20 +142,12 @@ function animate(){
     const p1=r.pts[idx], p2=r.pts[Math.min(idx+1,total)];
     const x=p1.x+(p2.x-p1.x)*lt;
     const y=p1.y+(p2.y-p1.y)*lt;
-    // car - drives IN street, not over building because streets are empty
-    ctx.shadowColor=r.color; ctx.shadowBlur=22; ctx.fillStyle='#fff'; ctx.beginPath(); ctx.arc(x,y,9,0,Math.PI*2); ctx.fill();
-    ctx.fillStyle=r.color; ctx.beginPath(); ctx.arc(x,y,5,0,Math.PI*2); ctx.fill(); ctx.shadowBlur=0;
-    // small chevron arrows along route to show direction, moving between buildings
-    if(Math.floor(t/200)%3===0){
-      ctx.fillStyle=r.color; ctx.globalAlpha=0.7;
-      ctx.beginPath(); ctx.moveTo(x+4,y-4); ctx.lineTo(x+8,y); ctx.lineTo(x+4,y+4); ctx.fill(); ctx.globalAlpha=1;
-    }
+    ctx.shadowColor=r.color; ctx.shadowBlur=20; ctx.fillStyle='#fff'; ctx.beginPath(); ctx.arc(x,y,8,0,Math.PI*2); ctx.fill();
+    ctx.fillStyle=r.color; ctx.beginPath(); ctx.arc(x,y,4,0,Math.PI*2); ctx.fill(); ctx.shadowBlur=0;
   });
   t+=16; requestAnimationFrame(animate);
 }
-resize();
-window.addEventListener('resize',resize);
-animate();
+resize(); window.addEventListener('resize',resize); animate();
 </script>
 </body>
 </html>
